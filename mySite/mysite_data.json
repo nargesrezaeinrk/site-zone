@@ -1,0 +1,1280 @@
+[
+
+{
+
+  "model": "auth.user",
+
+  "pk": 1,
+
+  "fields": {
+
+    "password": "pbkdf2_sha256$720000$dZNVoon2oG3YwTT3kJrwuM$knnqagj134fpGsr24eEwojwVly64aML/Bk88YndCKlQ=",
+
+    "last_login": "2026-06-26T08:27:46.976Z",
+
+    "is_superuser": true,
+
+    "username": "nari",
+
+    "first_name": "",
+
+    "last_name": "",
+
+    "email": "nari@gmail.com",
+
+    "is_staff": true,
+
+    "is_active": true,
+
+    "date_joined": "2026-04-30T12:53:13.514Z",
+
+    "groups": [],
+
+    "user_permissions": []
+
+  }
+
+},
+
+{
+
+  "model": "auth.user",
+
+  "pk": 2,
+
+  "fields": {
+
+    "password": "pbkdf2_sha256$720000$VNxpKGBtaRKDrr4pq3bp0H$yBwRMJyBHqa+dQQ2ZEwHu/YKJCsEZcTnYxUi8gKyTu0=",
+
+    "last_login": null,
+
+    "is_superuser": false,
+
+    "username": "JohnSmith",
+
+    "first_name": "",
+
+    "last_name": "",
+
+    "email": "",
+
+    "is_staff": false,
+
+    "is_active": true,
+
+    "date_joined": "2026-06-26T13:29:52Z",
+
+    "groups": [],
+
+    "user_permissions": []
+
+  }
+
+},
+
+{
+
+  "model": "auth.user",
+
+  "pk": 3,
+
+  "fields": {
+
+    "password": "pbkdf2_sha256$720000$gZ0rHWJWBMxlQw7GqKcxTz$wedShxQhYU+BocUwzpKqx757+4vr0Hr7vv4FW3OtYq4=",
+
+    "last_login": null,
+
+    "is_superuser": false,
+
+    "username": "JaneDoe",
+
+    "first_name": "",
+
+    "last_name": "",
+
+    "email": "",
+
+    "is_staff": false,
+
+    "is_active": true,
+
+    "date_joined": "2026-06-26T13:30:41Z",
+
+    "groups": [],
+
+    "user_permissions": []
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 1,
+
+  "fields": {
+
+    "name": "jazz",
+
+    "slug": "jazz"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 2,
+
+  "fields": {
+
+    "name": "music",
+
+    "slug": "music"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 3,
+
+  "fields": {
+
+    "name": "django",
+
+    "slug": "django"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 4,
+
+  "fields": {
+
+    "name": "sometag",
+
+    "slug": "sometag"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 5,
+
+  "fields": {
+
+    "name": "lifestyle",
+
+    "slug": "lifestyle"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 6,
+
+  "fields": {
+
+    "name": "mindfulness",
+
+    "slug": "mindfulness"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 7,
+
+  "fields": {
+
+    "name": "productivity",
+
+    "slug": "productivity"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 8,
+
+  "fields": {
+
+    "name": "history",
+
+    "slug": "history"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 9,
+
+  "fields": {
+
+    "name": "food",
+
+    "slug": "food"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 10,
+
+  "fields": {
+
+    "name": "pasta",
+
+    "slug": "pasta"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 11,
+
+  "fields": {
+
+    "name": "cooking",
+
+    "slug": "cooking"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 12,
+
+  "fields": {
+
+    "name": "learning",
+
+    "slug": "learning"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 13,
+
+  "fields": {
+
+    "name": "python",
+
+    "slug": "python"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 14,
+
+  "fields": {
+
+    "name": "programming",
+
+    "slug": "programming"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 15,
+
+  "fields": {
+
+    "name": "recommendations",
+
+    "slug": "recommendations"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 16,
+
+  "fields": {
+
+    "name": "reading",
+
+    "slug": "reading"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 17,
+
+  "fields": {
+
+    "name": "books",
+
+    "slug": "books"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 18,
+
+  "fields": {
+
+    "name": "sleep",
+
+    "slug": "sleep"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 19,
+
+  "fields": {
+
+    "name": "health",
+
+    "slug": "health"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 20,
+
+  "fields": {
+
+    "name": "science",
+
+    "slug": "science"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 21,
+
+  "fields": {
+
+    "name": "minimalism",
+
+    "slug": "minimalism"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 22,
+
+  "fields": {
+
+    "name": "hiking",
+
+    "slug": "hiking"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 23,
+
+  "fields": {
+
+    "name": "travel",
+
+    "slug": "travel"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 24,
+
+  "fields": {
+
+    "name": "outdoors",
+
+    "slug": "outdoors"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 25,
+
+  "fields": {
+
+    "name": "keyboards",
+
+    "slug": "keyboards"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 26,
+
+  "fields": {
+
+    "name": "technology",
+
+    "slug": "technology"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.tag",
+
+  "pk": 27,
+
+  "fields": {
+
+    "name": "hardware",
+
+    "slug": "hardware"
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 7,
+
+  "fields": {
+
+    "tag": 5,
+
+    "content_type": 7,
+
+    "object_id": 2
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 8,
+
+  "fields": {
+
+    "tag": 6,
+
+    "content_type": 7,
+
+    "object_id": 2
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 9,
+
+  "fields": {
+
+    "tag": 7,
+
+    "content_type": 7,
+
+    "object_id": 2
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 10,
+
+  "fields": {
+
+    "tag": 8,
+
+    "content_type": 7,
+
+    "object_id": 5
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 11,
+
+  "fields": {
+
+    "tag": 1,
+
+    "content_type": 7,
+
+    "object_id": 5
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 12,
+
+  "fields": {
+
+    "tag": 2,
+
+    "content_type": 7,
+
+    "object_id": 5
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 13,
+
+  "fields": {
+
+    "tag": 9,
+
+    "content_type": 7,
+
+    "object_id": 6
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 14,
+
+  "fields": {
+
+    "tag": 10,
+
+    "content_type": 7,
+
+    "object_id": 6
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 15,
+
+  "fields": {
+
+    "tag": 11,
+
+    "content_type": 7,
+
+    "object_id": 6
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 16,
+
+  "fields": {
+
+    "tag": 12,
+
+    "content_type": 7,
+
+    "object_id": 3
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 17,
+
+  "fields": {
+
+    "tag": 13,
+
+    "content_type": 7,
+
+    "object_id": 3
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 18,
+
+  "fields": {
+
+    "tag": 14,
+
+    "content_type": 7,
+
+    "object_id": 3
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 19,
+
+  "fields": {
+
+    "tag": 16,
+
+    "content_type": 7,
+
+    "object_id": 1
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 20,
+
+  "fields": {
+
+    "tag": 17,
+
+    "content_type": 7,
+
+    "object_id": 1
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 21,
+
+  "fields": {
+
+    "tag": 15,
+
+    "content_type": 7,
+
+    "object_id": 1
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 22,
+
+  "fields": {
+
+    "tag": 18,
+
+    "content_type": 7,
+
+    "object_id": 4
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 23,
+
+  "fields": {
+
+    "tag": 19,
+
+    "content_type": 7,
+
+    "object_id": 4
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 24,
+
+  "fields": {
+
+    "tag": 20,
+
+    "content_type": 7,
+
+    "object_id": 4
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 25,
+
+  "fields": {
+
+    "tag": 5,
+
+    "content_type": 7,
+
+    "object_id": 7
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 26,
+
+  "fields": {
+
+    "tag": 21,
+
+    "content_type": 7,
+
+    "object_id": 7
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 27,
+
+  "fields": {
+
+    "tag": 24,
+
+    "content_type": 7,
+
+    "object_id": 8
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 28,
+
+  "fields": {
+
+    "tag": 22,
+
+    "content_type": 7,
+
+    "object_id": 8
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 29,
+
+  "fields": {
+
+    "tag": 23,
+
+    "content_type": 7,
+
+    "object_id": 8
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 30,
+
+  "fields": {
+
+    "tag": 25,
+
+    "content_type": 7,
+
+    "object_id": 9
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 31,
+
+  "fields": {
+
+    "tag": 26,
+
+    "content_type": 7,
+
+    "object_id": 9
+
+  }
+
+},
+
+{
+
+  "model": "taggit.taggeditem",
+
+  "pk": 32,
+
+  "fields": {
+
+    "tag": 27,
+
+    "content_type": 7,
+
+    "object_id": 9
+
+  }
+
+},
+
+{
+
+  "model": "sites.site",
+
+  "pk": 1,
+
+  "fields": {
+
+    "domain": "localhost:8000",
+
+    "name": "localhost:8000"
+
+  }
+
+},
+
+{
+
+  "model": "blog.post",
+
+  "pk": 1,
+
+  "fields": {
+
+    "title": "Five Books Worth Reading This Year",
+
+    "slug": "five-books-worth-reading-this-year",
+
+    "body": "If you're looking for your next great read, consider mixing genres instead of sticking to one.\r\n\r\nA good reading list might include one classic novel, one science book, one biography, one mystery, and one contemporary fiction title. This variety keeps reading fresh and exposes you to different writing styles.\r\n\r\nReading consistently matters far more than reading quickly.",
+
+    "publish": "2026-03-29T09:20:00Z",
+
+    "created": "2026-04-30T14:19:55.299Z",
+
+    "updated": "2026-06-26T13:23:13.884Z",
+
+    "status": "PB",
+
+    "author": null
+
+  }
+
+},
+
+{
+
+  "model": "blog.post",
+
+  "pk": 2,
+
+  "fields": {
+
+    "title": "The beauty of slow mornings",
+
+    "slug": "the-beauty-of-slow-mornings",
+
+    "body": "Not every productive day begins with a packed schedule. Sometimes the best mornings are the quiet ones, where you have enough time to enjoy your coffee before checking your phone.\r\n\r\nBuilding a slower morning routine doesn't mean waking up at five in the morning or following a complicated ritual. It simply means creating a little space before the demands of the day begin.\r\n\r\nReading a few pages of a book, stretching for ten minutes, or preparing breakfast without rushing can noticeably improve your mood. These small habits help reduce stress and create a sense of control before work or school starts.\r\n\r\nA calm morning won't magically solve every problem, but it often changes how you respond to the challenges that come later in the day.",
+
+    "publish": "2026-01-15T08:30:00Z",
+
+    "created": "2026-04-30T14:38:03.206Z",
+
+    "updated": "2026-06-26T13:14:03.935Z",
+
+    "status": "PB",
+
+    "author": null
+
+  }
+
+},
+
+{
+
+  "model": "blog.post",
+
+  "pk": 3,
+
+  "fields": {
+
+    "title": "Learning Python One Project at a Time",
+
+    "slug": "learning-python-one-project-at-a-time",
+
+    "body": "Many beginners spend months watching tutorials without ever building something real. While tutorials are valuable, true understanding comes from creating projects.\r\n\r\nStart with something small: a calculator, a to-do list, or a simple weather application. You'll encounter problems that no tutorial prepared you for and solving them is where learning happens.\r\n\r\nAs your confidence grows, experiment with web development, automation scripts, or data analysis. Don't worry if your code isn't perfect. Clean code comes with practice.\r\n\r\nProgramming isn't about memorizing syntax—it's about learning how to think through problems.",
+
+    "publish": "2026-03-10T16:45:00Z",
+
+    "created": "2026-04-30T15:04:40.495Z",
+
+    "updated": "2026-06-26T13:21:40.267Z",
+
+    "status": "PB",
+
+    "author": 1
+
+  }
+
+},
+
+{
+
+  "model": "blog.post",
+
+  "pk": 4,
+
+  "fields": {
+
+    "title": "The Science Behind Better Sleep",
+
+    "slug": "the-science-behind-better-sleep",
+
+    "body": "Quality sleep influences nearly every aspect of daily life, from memory and concentration to mood and physical recovery.\r\n\r\nOne of the biggest factors affecting sleep is light exposure. Bright screens late at night can delay your body's natural production of melatonin, making it harder to fall asleep.\r\n\r\nKeeping a consistent bedtime, avoiding heavy meals before bed, and maintaining a cool bedroom are all small changes that can improve sleep quality.\r\n\r\nYou don't need to optimize every detail. Often, consistency matters more than perfection.",
+
+    "publish": "2026-04-11T21:30:00Z",
+
+    "created": "2026-05-06T11:48:12.915Z",
+
+    "updated": "2026-06-26T13:24:50.283Z",
+
+    "status": "PB",
+
+    "author": null
+
+  }
+
+},
+
+{
+
+  "model": "blog.post",
+
+  "pk": 5,
+
+  "fields": {
+
+    "title": "Why jazz never gets old",
+
+    "slug": "why-jazz-never-gets-old",
+
+    "body": "Jazz is one of those genres that rewards repeated listening. The more you understand its structure, the more fascinating it becomes.\r\n\r\nImprovisation is at the heart of jazz. Rather than following every note exactly as written, musicians have the freedom to express themselves while still respecting the underlying harmony.\r\n\r\nWhether you're listening to a small piano trio or a full big band, there's always something new to discover. One performance of the same song may sound completely different from another.\r\n\r\nIf you're new to jazz, don't worry about understanding everything immediately. Start with accessible artists, listen actively, and simply enjoy the conversation happening between the musicians.",
+
+    "publish": "2026-02-02T19:00:00Z",
+
+    "created": "2026-05-07T10:07:19.390Z",
+
+    "updated": "2026-06-26T13:16:58.296Z",
+
+    "status": "PB",
+
+    "author": null
+
+  }
+
+},
+
+{
+
+  "model": "blog.post",
+
+  "pk": 6,
+
+  "fields": {
+
+    "title": "Three Pasta Mistakes Everyone Makes",
+
+    "slug": "three-Pasta-Mistakes-Everyone-Makes",
+
+    "body": "Cooking pasta seems simple, but a few common mistakes can completely change the final dish.\r\n\r\nFirst, don't use too little water. Pasta needs room to move while it cooks.\r\n\r\nSecond, salt the water generously. Most of the seasoning happens before the sauce is even added.\r\n\r\nFinally, save a cup of pasta water before draining. The starch in the water helps sauces cling to the pasta, creating a smoother and more flavorful result.",
+
+    "publish": "2026-02-18T12:15:00Z",
+
+    "created": "2026-05-07T10:07:41.807Z",
+
+    "updated": "2026-06-26T13:19:23.313Z",
+
+    "status": "PB",
+
+    "author": null
+
+  }
+
+},
+
+{
+
+  "model": "blog.post",
+
+  "pk": 7,
+
+  "fields": {
+
+    "title": "Minimalism Isn't About Owning Less",
+
+    "slug": "minimalism-isnt-about-owning-less",
+
+    "body": "Many people assume minimalism means throwing away most of your belongings.\r\n\r\nIn reality, it's more about being intentional. The goal isn't emptiness—it's making room for the things that genuinely add value to your life.",
+
+    "publish": "2026-05-04T14:10:00Z",
+
+    "created": "2026-06-26T13:25:55.308Z",
+
+    "updated": "2026-06-26T13:25:55.308Z",
+
+    "status": "DF",
+
+    "author": null
+
+  }
+
+},
+
+{
+
+  "model": "blog.post",
+
+  "pk": 8,
+
+  "fields": {
+
+    "title": "A Weekend Hiking Checklist",
+
+    "slug": "a-weekend-hiking-checklist",
+
+    "body": "Before heading onto the trail, make sure you pack water, snacks, a small first-aid kit, weather-appropriate clothing, and a fully charged phone.\r\n\r\nCheck the forecast before leaving and let someone know where you're going if you're hiking alone.\r\n\r\nGood preparation often makes the difference between a stressful trip and an enjoyable adventure.",
+
+    "publish": "2026-05-21T07:45:00Z",
+
+    "created": "2026-06-26T13:27:12.725Z",
+
+    "updated": "2026-06-26T13:27:12.725Z",
+
+    "status": "PB",
+
+    "author": null
+
+  }
+
+},
+
+{
+
+  "model": "blog.post",
+
+  "pk": 9,
+
+  "fields": {
+
+    "title": "Why Mechanical Keyboards Feel Different",
+
+    "slug": "why-mechanical-keyboards-feel-different",
+
+    "body": "Mechanical keyboards use individual switches beneath each key, giving them a more consistent feel and longer lifespan than many membrane keyboards.\r\n\r\nDifferent switch types emphasize speed, tactile feedback, or quiet operation, making keyboard choice surprisingly personal.",
+
+    "publish": "2026-06-08T18:05:00Z",
+
+    "created": "2026-06-26T13:28:14.782Z",
+
+    "updated": "2026-06-26T13:28:14.782Z",
+
+    "status": "DF",
+
+    "author": null
+
+  }
+
+}
+
+]
+

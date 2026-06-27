@@ -8,7 +8,7 @@ class EmailPostForm(forms.Form):
     comment = forms.CharField(
         required=False,
         widget=forms.Textarea
-)
+    )
 
 class CommentForm(forms.ModelForm):
     class Meta:

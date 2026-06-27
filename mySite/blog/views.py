@@ -1,3 +1,4 @@
+from django.core import paginator
 from django.db.models import Q
 from django.shortcuts import get_object_or_404, render
 from django.http import Http404

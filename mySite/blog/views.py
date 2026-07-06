@@ -148,7 +148,7 @@ def post_search(request):
                 Post.published.annotate(
                 search = search_vector,
                 rank = SearchRank(search_vector, search_query)
-                ).filter(search=search_query).order('-rank')
+                ).filter(search=search_query).order_by('-rank')
             )
     return render(
         request,
